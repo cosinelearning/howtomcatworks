@@ -48,7 +48,6 @@ public class Bootstrap {
 	    ((Lifecycle) context).addLifecycleListener(listener);
 
 	    // here is our loader
-	    //Loader loader = new WebappLoader();
 	    Loader loader = new WebappLoader();
 	    // associate the loader with the Context
 	    context.setLoader(loader);
@@ -67,7 +66,7 @@ public class Bootstrap {
 	      for (int i=0; i<repositories.length; i++) {
 	        System.out.println("  repository: " + repositories[i]);
 	      }
-			
+	      
 	      // make the application wait until we press a key.
 	      System.in.read();
 	      ((Lifecycle) context).stop();

@@ -2,7 +2,6 @@ package exec8loader.startup;
 
 import exec8loader.core.SimpleWrapper;
 import exec8loader.core.SimpleContextConfig;
-import exec8loader.core.SimpleLoader;
 import org.apache.catalina.Connector;
 import org.apache.catalina.Context;
 import org.apache.catalina.Lifecycle;
@@ -33,8 +32,8 @@ public class Bootstrap {
 
 	    Context context = new StandardContext();
 	    // StandardContext's start method adds a default mapper
-	    context.setPath("/myApp");
-	    context.setDocBase("myApp");
+	    context.setPath("/webroot");
+	    context.setDocBase("webroot");
 
 	    context.addChild(wrapper1);
 	    context.addChild(wrapper2);

@@ -4,6 +4,11 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/catalina.jar"/>
 	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/servlet-api.jar"/>
-	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/catalina7.jar"/>
+	<classpathentry kind="lib" path="C:/DEV/tomcat/Tomcat 4.1/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="C:/DEV/tomcat/apache-tomcat-7.0.42/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="C:/DEV/tomcat/Tomcat 4.1/server/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/jakarta-tomcat-naming-resources-4.1.29.jar"/>
+	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/naming-common-4.1.31.jar"/>
+	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/jakarta-commons-collections.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

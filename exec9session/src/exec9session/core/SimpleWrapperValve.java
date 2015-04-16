@@ -1,12 +1,15 @@
 package exec9session.core;
 
 import java.io.IOException;
+
 import javax.servlet.Servlet;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
 import org.apache.catalina.Context;
 import org.apache.catalina.Request;
 import org.apache.catalina.Response;
@@ -42,7 +45,20 @@ public class SimpleWrapperValve implements Valve, Contained {
     try {
       servlet = wrapper.allocate();
       if (hres!=null && hreq!=null) {
+    	  
+    	HttpSession session1 = hreq.getSession(false);
+    	if (session1 != null)
+    	{
+    		Object value1 = session1.getAttribute("value");
+    	}
+    	  
         servlet.service(hreq, hres);
+        
+        HttpSession session2 = hreq.getSession(false);
+        Object value2 = session2.getAttribute("value");
+        
+        
+        int i = 100;
       }
       else {
         servlet.service(sreq, sres);

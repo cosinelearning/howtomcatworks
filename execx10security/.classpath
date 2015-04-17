@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/naming-common-4.1.31.jar"/>
 	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/servlet-api.jar"/>
 	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="C:/srcown/howtomcatspace/library/commons-digester-2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

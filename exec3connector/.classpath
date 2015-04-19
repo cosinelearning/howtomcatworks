@@ -2,8 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="C:/DEV/Java/jdk1.7.0_51/jre/lib/ext/servlet-api.jar"/>
-	<classpathentry kind="lib" path="C:/DEV/tomcat/apache-tomcat-7.0.42/lib/catalina.jar"/>
-	<classpathentry kind="lib" path="C:/DEV/tomcat/apache-tomcat-7.0.42/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="../library/bootstrap.jar"/>
+	<classpathentry kind="lib" path="../library/catalina.jar"/>
+	<classpathentry kind="lib" path="../library/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="../library/commons-logging.jar"/>
+	<classpathentry kind="lib" path="../library/jakarta-commons-collections.jar"/>
+	<classpathentry kind="lib" path="../library/jakarta-tomcat-naming-resources-4.1.29.jar"/>
+	<classpathentry kind="lib" path="../library/naming-common-4.1.31.jar"/>
+	<classpathentry kind="lib" path="../library/servlet-api.jar"/>
+	<classpathentry kind="lib" path="../library/tomcat-juli.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

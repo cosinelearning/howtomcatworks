@@ -3,7 +3,7 @@ package exec3connector.connector;
 import java.io.InputStream;
 import java.io.IOException;
 import javax.servlet.ServletInputStream;
-import org.apache.tomcat.util.res.StringManager;
+import org.apache.catalina.util.StringManager;
 
 import exec3connector.connector.http.Constants;
 import exec3connector.connector.http.HttpRequest;

@@ -7,7 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;
 
 import org.apache.catalina.util.RequestUtil;
-import org.apache.tomcat.util.res.StringManager;
+import org.apache.catalina.util.StringManager;
 
 import exec3connector.ServletProcessor;
 import exec3connector.StaticResourceProcessor;

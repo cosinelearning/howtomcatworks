@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="../library/bootstrap.jar"/>
-	<classpathentry kind="lib" path="../library/catalina.jar"/>
+	<classpathentry kind="lib" path="../library/catalina.jar" sourcepath="C:/srcown/HowTomcatWorks/src/org.zip"/>
 	<classpathentry kind="lib" path="../library/commons-digester-2.1.jar"/>
 	<classpathentry kind="lib" path="../library/commons-logging.jar"/>
 	<classpathentry kind="lib" path="../library/jakarta-commons-collections.jar"/>

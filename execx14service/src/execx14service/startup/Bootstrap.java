@@ -25,6 +25,8 @@ public class Bootstrap {
 
 	public static void main(String[] args){
 		
+		
+		
 		System.setProperty("catalina.base",  System.getProperty("user.dir"));
 		Connector connector = new HttpConnector();
 		
